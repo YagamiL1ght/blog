@@ -1,49 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <form action="/abc" method="post">
-        <div class="login">
-            <label for="username">姓名：</label>
-        <input id="username" type="text" name="username" placeholder="用户名">
-    </div>
-        <div class="password">
-            <label for="password">密码：</label>
-        <input id="password" type="password" name="password" placeholder="请输入密码">
-    </div>
-    <div class="sex">
-        <label>性别：</label>
-        <input type="radio" name="sex" value="男">男
-        <input type="radio" name="sex" value="女">女
-    </div>
-    <div class="取向">
-        <label>取向：</label>
-        <input type="radio" name="取向" value="男">男
-        <input type="radio" name="取向" value="女">女 
-    </div>
-    <div class="hobby">
-         <label>爱好：</label>
-         <input type="checkbox" name="hobby"value="dota">dota
-         <input type="checkbox" name="hobby"value="旅游">旅游
-         <input type="checkbox" name="hobby"value="宠物">宠物
-    </div>
-    <div class="textarea">
-        <label for="article">评论：</label>
-        <textarea name="article" id="" cols="30" rows="10" placeholder="ddd"></textarea>
-    </div>
-    <div class="select"><label>我的car:</label>
-        <select name="car">
-            <option value="萨博" selected>萨博</option>
-            <option value="奔驰">奔驰</option>
-            <option value="宝马">宝马</option>
-        </select> <input type="submit" value="提交">     
-    </div>
-    <form>
-           
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <style>
+            .quanbu{width: 600px;
+            margin: 0 auto;
+            }
+            .quanbu a{
+                text-decoration: none;
+                cursor: pointer;
+            }
+            *{
+                color: black;
+            }
+            .box:hover {
+                box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            .box.a{
+                display: inline-block;
+                padding: 8px 10px;
+                border-radius: 3px;
+                cursor: pointer;
+                transition: all .3s;
+                background-color: #009688;
+                
+            }
+            .box.b{display: inline-block;
+                padding: 8px 10px;
+                border-radius: 3px;
+                cursor: pointer;
+                transition: all .3s;
+                background-color:#ffeb3b;
+            }
+            .box.c{display: inline-block;
+                padding: 8px 10px;
+                text-decoration: none;
+                border-radius: 3px;
+                cursor: pointer;
+                transition: all .3s;
+                background-color: #ff9800;
+            }
+            .box.d{display: inline-block;
+                padding: 8px 10px;
+                text-decoration: none;
+                border-radius: 3px;
+                cursor: pointer;
+                transition: all .3s;
+                background-color: #f44336;
+                
+               
+                }
+            .box.e{display: inline-block;
+                padding: 8px 10px;
+                text-decoration: none;
+                border-radius: 3px;
+                cursor: pointer;
+                transition: all .3s;
+                background-color: #4CAF50;
+                
+                }
+            .kira{color: white;
+             }
+            .liet{color: white;
+            }
+            .yagami{color: white;
+            }
+                
+        </style>
+    </head>
+    <body>
+        <div class="quanbu">
+            <div class="box a">
+                <a href="" class="kira">steal</a>
+            </div>
+            <div class="box b">
+                <a href="" class="yue">yellow</a>
+            </div>
+            <div class="box c">
+                <a href="" class="kami">orange</a>
+            </div>
+            <div class="box d">
+                <a href="" class="liet">red</a>
+            </div>
+            <div class="box e">
+               <a href=""  class="yagami">green</a>
+            </div>
+        </div>
+    </body>
+    </html>
